@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Инциденты</string>
+    <string name="error_date">Дата выявления</string>
+    <string name="finish_date">Крайний срок</string>
+    <string name="status">Статус</string>
+</resources>

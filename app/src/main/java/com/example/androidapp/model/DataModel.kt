@@ -95,6 +95,10 @@ object DataModel {
         return userList
     }
 
+    fun getCardById(id: String): CardInfo {
+        return userList.find { card -> card.ticketid == id }!!
+    }
+
     private fun checkPermissions() {
         if (checkSelfPermission(activity!!, Manifest.permission.READ_EXTERNAL_STORAGE)
             != PackageManager.PERMISSION_GRANTED
